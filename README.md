@@ -157,7 +157,7 @@
   ![Initialize-4](screenshots/Initialize-4.png)
 
 - As all the pre-checks are passed, we are ready to start the AVD and root it
-- `Hit Enter` and :beers::beers::relieved:
+- `Hit Enter` and :relieved::beers::beers:
 
   ![Initialize-5](screenshots/Initialize-5.png)
 
