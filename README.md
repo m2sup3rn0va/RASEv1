@@ -23,10 +23,10 @@
 
 ---
 
-- :fire: <span style='color:green'>**"RASE"**</span> :fire: is a powershell script capable of rooting **"Android Studio Emulators"** which are running on **"Android Version > 9.0"**
-- Specifically used for **"Android Penetration Testing"**, this script comes handy when you want to root **"Android Studio Emulators"** which are running on **"Android Version > 9.0"**
+- :fire: <span style='color:green'>**"RASE"**</span> :fire: is a powershell script capable of rooting **"Android Studio Emulators"** which are running on **"Android Version 9.0"** (not the production-builds i.e. "Google Play" System Images)
+- Specifically used for **"Android Penetration Testing"**, this script comes handy when you want to root **"Android Studio Emulators"** which are running on **"Android Version 9.0"** (not the production-builds i.e. "Google Play" System Images)
 - This is **"version-1.0"** of the script
-- It will not work on **"Android Studio Emulators"** which are running on **"Android Version < 9.0"**
+- Script is tested on **"Android Version 9.0 - Google x86_ARM Intel x86 Atom System Image"**
 
 :point_up: <a href="#">Back to top</a> :point_up:
 
@@ -36,7 +36,7 @@
 
 ---
 
-  - Root the **"Android Studio Emulator"** running **"Android Version > 9.0"**
+  - Root the **"Android Studio Emulator"** running **"Android Version 9.0"** (not the production-builds i.e. "Google Play" System Images)
   - Install newly generated **"Self-Signed Burpsuite Certificate"** into the Root CA Store of AVD
   - Start the **"Rooted Android Virtual Device"**
 
@@ -94,9 +94,10 @@
   ![SDK-1](screenshots/SDK-3.png)
 
 - Downloads for all these will be huge so please be patient
-- Once you have all the dependencies in place, create a new AVD with Android Version 9.0
+- Once you have all the dependencies in place, create a new AVD with **"Android Version 9.0"** (not the production-builds i.e. "Google Play" System Images)
 - I prefer to use **"Google X86_ARM Intel x86 Atom System Image"** because it has pre-build ABI's for **"x86"** as well as **"ARM"**
 - The only drawback to this image is it doesn't have **"Google Play Store"**, so testers testing **"Google API's"** or **"Google Protect"** implementation will not have a good chance with this image  :disappointed:
+- Android System Images with **"Google Play Store"** are production-builds (what I have understood after reading multiple blogs). You can get `adb` running as `root` only on development-builds. So, try to avoid Android System Images with **"Google Play Store"** as you won't be able to get the root easily
 - Finally, AVD creation page will look like **(Just some settings which I prefer)**
 
   ![AVD-1](screenshots/AVD-1.png)
