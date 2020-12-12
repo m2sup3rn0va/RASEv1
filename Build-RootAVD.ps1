@@ -1,5 +1,6 @@
 # ===============================================================
 # Root Android Studio Emulator with Android Version 9.0 and above
+# Production-builds i.e. 'Google Play' System Images are not supported
 # Created By : Mr. Sup3rN0va || 12-Dec-2020      
 # ---------------------------------------------------------------
 # Usage :                                        
@@ -13,35 +14,38 @@ Function Build-RootAVD
 {
     Clear-Host
 
-    Write-Host "# ==============================================================="
-    Write-Host "# Root Android Studio Emulator with Android Version 9.0 and above"
+    Write-Host "# ========================================================================="
+    Write-Host "# Root Android Studio Emulator with 'Android Version 9.0 and above'"
+    Write-Host "# Production-builds i.e. 'Google Play' System Images are not supported"
     Write-Host "# Created By : Mr. Sup3rN0va || 12-Dec-2020"
-    Write-Host "# ---------------------------------------------------------------"
+    Write-Host "# -------------------------------------------------------------------------"
     Write-Host "# Usage :"
     Write-Host "#"
     Write-Host "# PS C:\> Get-Help Initialize-RootAVD"
     Write-Host "# PS C:\> Get-Help Install-BurpCert"
     Write-Host "# PS C:\> Get-Help Start-RootAVD"
-    Write-Host "# ==============================================================="
+    Write-Host "# ========================================================================="
 }
 
 Function Initialize-RootAVD
 {
     <#
     .SYNOPSIS
-        Root Android Studio Emulator with Android Version 9.0 and above
+        Root Android Studio Emulator with Android Version 9.0 and above.
 
     .DESCRIPTION
         This auto-script will assist in rooting the Android Studio Emulator running on Android Version 9.0 and above.
+	Production-builds i.e. 'Google Play' System Images are not supported.
         You can use any system image irrespective of the architecture and ABIS installed.
-        Make sure to have Android Version 9.0 and above. It will not work if you are using Android Version below 9.0
+	It will not work if you are using Android Version below 9.0.
 
     .PARAMETER avd
         Name of the AVD to be rooted (Mandatory)
 
     .EXAMPLE
          
-        # Make sure you have AVD pre-created and the Android Version > 9.0
+        # Make sure you have AVD pre-created and the Android Version 9.0 and above
+	# Production-builds i.e. 'Google Play' System Images are not supported
         # Also, make sure that you have run the AVD once and did the pre-setup so that all the keys are created in data folder
         PS C:\> Initialize-RootAVD -avd <NAME_OF_THE_AVD_TO_ROOT>
 
@@ -52,7 +56,6 @@ Function Initialize-RootAVD
         > SuperSU : Both APK and ZIP File : https://supersuroot.org/download/
         > Root Checker : https://apkpure.com/root-checker/com.joeykrim.rootcheck
         > OpenSSL for Windows (Portable) : https://sourceforge.net/projects/openssl-for-windows/files/
-        > Frida Server : https://github.com/frida/frida/releases/
         > BurpSuite Exported Certificate
 
         # NOTE : IF YOU WANT TO DOWNLOAD BINARIES MANUALLY ONE-BY-ONE, THEN EMPTY THE 'auto_install' folder
