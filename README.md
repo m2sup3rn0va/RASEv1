@@ -16,6 +16,8 @@
 - [**RootIT!!**](#rootit)
 - [**Points to Ponder**](#points-to-ponder)
 - [**Some Errors**](#some-errors)
+- [**BIG SHOUT-OUT**](#big-shout-out)
+
 
 ---
 
@@ -197,6 +199,8 @@
 
 ## **Points to Ponder**
 
+---
+
 > Wiping the data will delete the rooted snapshot created but you can re-root using the same above method
 
 > After wiping make sure that you run the AVD once to set it up before rooting
@@ -209,6 +213,8 @@
 
 ## **Some Errors**
 
+---
+
 - There are times, I have seen error like
 
   ![Error](screenshots/Error.png)
@@ -218,3 +224,19 @@
 - If you are getting something like below then we are good to go
 
   ![precheck](screenshots/precheck.png)
+  
+:point_up: <a href="#">Back to top</a> :point_up:
+
+---
+
+## **BIG SHOUT-OUT**
+
+---
+
+- A big shout-out to **"Tony Tannous"** for his article on rooting Android Emulator
+- I have read multiple articles and blogs but this one was the best out of all
+- This is all his work and I just automated the whole process
+
+  > [**REFERENCE ARTICLE**](https://anthony-f-tannous.medium.com/android-10-emulation-of-magisk-supersu-on-an-aosp-avd-de93ed080fad)
+  
+- **"REQUEST YOU ALL TO VISIT THIS ONCE"**
