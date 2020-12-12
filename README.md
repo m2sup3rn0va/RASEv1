@@ -26,7 +26,7 @@
 - :fire: <span style='color:green'>**"RASE"**</span> :fire: is a powershell script capable of rooting **"Android Studio Emulators"** which are running on **"Android Version 9.0"** (not the production-builds i.e. "Google Play" System Images)
 - Specifically used for **"Android Penetration Testing"**, this script comes handy when you want to root **"Android Studio Emulators"** which are running on **"Android Version 9.0"** (not the production-builds i.e. "Google Play" System Images)
 - This is **"version-1.0"** of the script
-- Script is tested on **"Android Version 9.0 - Google x86_ARM Intel x86 Atom System Image"**
+- Script is tested on **"Android Version 9.0 - Google x86_ARM Intel x86 Atom System Image"** and **"Android Version 11.0 - Intel x86 Atom System Image (Google APIs)"**
 
 :point_up: <a href="#">Back to top</a> :point_up:
 
