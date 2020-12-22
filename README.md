@@ -50,7 +50,8 @@
 
 ---
 
-- Please download **"Windows Terminal"** from Microsoft Store to avoid errors while running the script
+- Please download **"PowerShell Version 7.1 and above"** from [Powershell - GitHub](https://github.com/PowerShell/PowerShell/releases) to avoid errors while running the script
+- Open `pwsh.exe` from Powershell v7.1 or above and run the script in that. (I completely forgot that I upgraded my Powershell. Sorry for the chaos  :wink:)
 - Although all the files needed are attached in the repository but if you are going to download the latest binaries, then these are needed :
   - **SuperSu (APK)** : [Download Link](https://supersuroot.org/download/)
   - **SuperSu (ZIP)** : [Download Link](https://supersuroot.org/download/)
@@ -78,9 +79,7 @@
 - All these manual operations are already performed and all the binaries are already downloaded and shared in the repository except **burp cert**. Just in case if anyone trusts me :wink::wink:
 - Also, if you don't want to do it now, no worries, once you run the script, it will walk you through the process
 
-> The script FAILS when you use POWERSHELL Window because '&' needs to be in quotes for POWERSHELL to understand the command
-
-> Please use "Windows Terminal" to avoid errors while running the script
+> The script FAILS when you use POWERSHELL below 7.1
 
 > If you are not able to download the image from Android SDK, then you can use this link to one-click download the system-image : [Android v9.0 - Google X86_ARM Intel x86 Atom System Image](https://dl.google.com/android/repository/sys-img/google_apis/x86-28_r10.zip)
 
