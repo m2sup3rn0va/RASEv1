@@ -41,6 +41,7 @@
   - Root the **"Android Studio Emulator"** running **"Android Version 9.0 and above"** (not the production-builds i.e. "Google Play" System Images)
   - Install newly generated **"Self-Signed Burpsuite Certificate"** into the Root CA Store of AVD
   - Start the **"Rooted Android Virtual Device"**
+  - Set/Reset global http proxy settings on **"Rooted Android Virtual Device"**
 
 :point_up: <a href="#">Back to top</a> :point_up:
 
@@ -50,8 +51,8 @@
 
 ---
 
-- Please download **"PowerShell Version 7.1 and above"** from [Powershell - GitHub](https://github.com/PowerShell/PowerShell/releases) to avoid errors while running the script
-- Open `pwsh.exe` from Powershell v7.1 or above and run the script in that. (I completely forgot that I upgraded my Powershell. Sorry for the chaos  :wink:)
+- Best way to install **"Android Studio"** is via installer as it puts everything in default path and script loves it :wink:
+- Make sure after installing **"Android Studio"**, **bypass** the execution policy in powershell. This can be done by running powershell and typing : `Set-ExecutionPolicy -Scope CurrentUser bypass` and hit **'A'** when prompted
 - Although all the files needed are attached in the repository but if you are going to download the latest binaries, then these are needed :
   - **SuperSu (APK)** : [Download Link](https://supersuroot.org/download/)
   - **SuperSu (ZIP)** : [Download Link](https://supersuroot.org/download/)
@@ -78,8 +79,6 @@
 - These binaries are necessary to run the script as it performs individual tests to check whether the binaries are present or not. If not, the script **"FAILS"** :sob::sob::rage:
 - All these manual operations are already performed and all the binaries are already downloaded and shared in the repository except **burp cert**. Just in case if anyone trusts me :wink::wink:
 - Also, if you don't want to do it now, no worries, once you run the script, it will walk you through the process
-
-> The script FAILS when you use POWERSHELL below 7.1
 
 > If you are not able to download the image from Android SDK, then you can use this link to one-click download the system-image : [Android v9.0 - Google X86_ARM Intel x86 Atom System Image](https://dl.google.com/android/repository/sys-img/google_apis/x86-28_r10.zip)
 
