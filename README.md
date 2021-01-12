@@ -3,7 +3,7 @@
 
 > **Owner** : 🧛🏻‍♂️ - Mr. Sup3rN0va | 11-December-2020
 
-> **Tags** : #i0S (📲), #android (📱), #pentesting (👨🏼‍💻), #tools (⚒), #cheatsheet (📜)
+> **Tags** : #i0S (📲), #android (📱), #pentesting (👨🏼‍💻), #tools (⚒)
 
 ---
 
