@@ -1,9 +1,9 @@
 
 <h1><b>RASE - Rooting Android Studio Emulator<b></h1>
 
-> **Owner** : Mr. Sup3rN0va | 11-December-2020
+> **Owner** : 🧛🏻‍♂️ - Mr. Sup3rN0va | 11-December-2020
 
-> **Tags** : #android, #pentesting, #tools, #rooting
+> **Tags** : #i0S (📲), #android (📱), #pentesting (👨🏼‍💻), #tools (⚒), #cheatsheet (📜)
 
 ---
 
